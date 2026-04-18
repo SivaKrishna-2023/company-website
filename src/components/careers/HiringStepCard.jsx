@@ -1,17 +1,7 @@
 // src/components/careers/HiringStepCard.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Single responsibility: one step card in the "Our Hiring Process" section.
- *
- * @param {string}  num           - "01", "02" …
- * @param {string}  icon          - Emoji
- * @param {string}  title
- * @param {string}  desc
- * @param {boolean} inView
- * @param {number}  delayMs
- * @param {boolean} showConnector - Desktop right-side connector line
- */
+
 export default function HiringStepCard({
   num,
   icon,

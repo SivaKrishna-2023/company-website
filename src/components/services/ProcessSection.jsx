@@ -4,10 +4,7 @@ import ProcessStepCard from "./ProcessStepCard";
 import { PROCESS_COPY, PROCESS_STEPS } from "../../constants/services/servicesPageData";
 import { cn } from "../../utils/cn";
 
-/**
- * "Our Process" section composer.
- * Owns its own useInView ref; maps data to ProcessStepCard atoms.
- */
+
 export default function ProcessSection() {
   const [ref, inView] = useInView(0.1);
 

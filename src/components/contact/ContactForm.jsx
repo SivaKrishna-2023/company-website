@@ -6,19 +6,7 @@ import SubmitButton     from "./SubmitButton";
 import FormSuccessState from "./FormSuccessState";
 import { cn } from "../../utils/cn";
 
-/**
- * Contact form UI composer.
- *
- * Responsibilities (ONLY):
- *  - Render form fields using atom components
- *  - Wire Formik state from useContactForm hook
- *  - Delegate success rendering to FormSuccessState
- *  - Delegate submit button to SubmitButton
- *
- * Zero validation logic, zero submit logic — all in useContactForm.
- *
- * @param {string} className
- */
+
 export default function ContactForm({ className = "" }) {
   const {
     formik,

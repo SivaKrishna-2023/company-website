@@ -2,12 +2,7 @@
 import { Link } from "react-router-dom";
 import { SERVICE_DETAIL_COPY } from "../../constants/services/servicesPageData";
 
-/**
- * Single responsibility: hero block for a service detail page.
- * Shows back link, icon, title, description, CTA, and hero image.
- *
- * @param {object} service
- */
+
 export default function ServiceDetailHero({ service }) {
   return (
     <section

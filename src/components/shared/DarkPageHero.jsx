@@ -1,18 +1,7 @@
 // src/components/shared/DarkPageHero.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Reusable dark-navy page hero used by Services and Careers pages.
- * Accepts all copy as props — zero hardcoded strings.
- *
- * @param {string}      label       - Small eyebrow label
- * @param {string}      heading     - Main h1
- * @param {string}      accent      - Coloured word appended to heading (optional)
- * @param {string}      subtext
- * @param {ReactNode}   actions     - CTA button(s) slot
- * @param {ReactNode}   floatingStart - Floating badge top-left (optional)
- * @param {ReactNode}   floatingEnd   - Floating badge bottom-right (optional)
- */
+
 export default function DarkPageHero({
   label,
   heading,

@@ -1,22 +1,7 @@
 // src/components/ui/InputField.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Reusable controlled input / textarea for contact forms.
- *
- * @param {"input"|"textarea"} as      - Element type
- * @param {string}  label              - Label text (shown above field)
- * @param {string}  name               - Field name (used for id + htmlFor)
- * @param {string}  type               - Input type (text, email, tel…)
- * @param {string}  placeholder
- * @param {string}  value
- * @param {function} onChange
- * @param {string}  error              - Validation error message
- * @param {boolean} required
- * @param {number}  rows               - textarea rows (default 5)
- * @param {string}  className
- * @param {"light"|"dark"} variant     - light = white bg, dark = dark bg (footer)
- */
+
 export default function InputField({
   as = "input",
   label,

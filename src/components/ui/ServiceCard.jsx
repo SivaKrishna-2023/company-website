@@ -2,14 +2,6 @@
 import { Link } from "react-router-dom";
 import { cn } from "../../utils/cn";
 
-/**
- * Reusable service card — used on both Home and Services pages.
- * FIX: All image containers use fixed aspect-ratio wrappers to guarantee
- *      consistent height regardless of source image dimensions.
- *
- * @param {object}  service  - Service data object from constants
- * @param {"grid"|"list"} layout - Display mode
- */
 export default function ServiceCard({ service, layout = "grid", className = "" }) {
 
   // ── LIST layout (used on /services page) ──────────────────────────────────

@@ -2,12 +2,7 @@
 import { JOB_DEPARTMENTS } from "../../constants/careers";
 import { cn } from "../../utils/cn";
 
-/**
- * Single responsibility: renders department filter pill buttons.
- *
- * @param {string}   active    - Currently active department
- * @param {function} onChange  - Called with new department string
- */
+
 export default function JobFilterPills({ active, onChange }) {
   return (
     <div className="flex flex-wrap gap-2" role="group" aria-label="Filter by department">

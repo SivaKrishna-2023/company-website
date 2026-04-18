@@ -2,13 +2,6 @@
 import { Link } from "react-router-dom";
 import { CAREER_DETAIL_COPY } from "../../constants/careers/careersPageData";
 
-/**
- * Single responsibility: hero section of the Career Detail page.
- * Shows job title, meta chips, description, and sticky apply card.
- *
- * @param {object}   job
- * @param {function} onApply  - Opens the ApplyModal
- */
 export default function CareerDetailHero({ job, onApply }) {
   return (
     <section

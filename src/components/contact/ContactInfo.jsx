@@ -1,18 +1,6 @@
 // src/components/contact/ContactInfo.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * "Our Location" section — dark navy background.
- * Renders the heading, address/hours metadata, and embedded Google Map.
- *
- * @param {string} heading
- * @param {string} subtext
- * @param {object} address       - { line1, line2, line3 }
- * @param {string} hours
- * @param {string} mapEmbedSrc   - Google Maps iframe src URL
- * @param {boolean} inView       - Drives entrance animation
- * @param {string} className
- */
 export default function ContactInfo({
   heading,
   subtext,

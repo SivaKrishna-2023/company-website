@@ -2,13 +2,7 @@
 import { useCountUp } from "../../hooks/useCountUp";
 import { cn } from "../../utils/cn";
 
-/**
- * Single stat item with animated count-up.
- * @param {number}  value
- * @param {string}  suffix   - e.g. "+"
- * @param {string}  label
- * @param {boolean} triggered
- */
+
 function StatItem({ value, suffix, label, triggered }) {
   const count = useCountUp(value, triggered, 1800);
   return (
@@ -21,19 +15,6 @@ function StatItem({ value, suffix, label, triggered }) {
   );
 }
 
-/**
- * "About Innova Orbit" mini section shown on the Contact page.
- * Left: heading + description + animated stats
- * Right: team photo
- *
- * @param {string}   heading
- * @param {string}   subtext
- * @param {Array}    stats       - [{ id, value, suffix, label }]
- * @param {string}   imageSrc
- * @param {string}   imageAlt
- * @param {boolean}  inView      - Triggers animations + count-up
- * @param {string}   className
- */
 export default function ContactAbout({
   heading,
   subtext,

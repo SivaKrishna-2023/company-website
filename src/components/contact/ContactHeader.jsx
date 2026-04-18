@@ -1,17 +1,6 @@
 // src/components/contact/ContactHeader.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Renders the left-side heading + subtext + contact details
- * shown in the top "Get in Touch" section of the Contact page.
- *
- * @param {string} heading
- * @param {string} subtext
- * @param {string} phone
- * @param {string} phoneTel   - href-safe phone string
- * @param {string} email
- * @param {string} className
- */
 export default function ContactHeader({
   heading,
   subtext,

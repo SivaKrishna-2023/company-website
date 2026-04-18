@@ -6,10 +6,7 @@ import { SERVICES_PREVIEW_COPY } from "../../constants/home/homeData";
 import { SERVICES } from "../../constants/services";
 import { cn } from "../../utils/cn";
 
-/**
- * Services preview section on the Home page.
- * Owns its own useInView ref; maps SERVICES to ServiceCard atoms.
- */
+
 export default function ServicesPreviewSection() {
   const [ref, inView] = useInView(0.1);
 

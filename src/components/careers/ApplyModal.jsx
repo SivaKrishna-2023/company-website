@@ -5,10 +5,6 @@ import { z } from "zod";
 import { cn } from "../../utils/cn";
 import { CAREER_DETAIL_COPY } from "../../constants/careers/careersPageData";
 
-/**
- * Zod schema for the job application form.
- * Defined here — close to the modal — since it belongs to this domain.
- */
 const applySchema = z.object({
   name:     z.string().min(1, "Full name is required"),
   email:    z.string().email("Enter a valid email address"),
@@ -19,13 +15,6 @@ const applySchema = z.object({
 
 const INITIAL = { name: "", email: "", phone: "", linkedin: "", message: "" };
 
-/**
- * Single responsibility: full-screen modal for applying to a job.
- * Uses Formik + Zod for validation, isolated from parent page state.
- *
- * @param {object}   job      - Job data object
- * @param {function} onClose  - Closes the modal
- */
 export default function ApplyModal({ job, onClose }) {
   const formik = useFormik({
     initialValues: INITIAL,

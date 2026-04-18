@@ -5,10 +5,7 @@ import { CULTURE_COPY } from "../../constants/careers/careersPageData";
 import { CULTURE_PERKS } from "../../constants/careers";
 import { cn } from "../../utils/cn";
 
-/**
- * "Why Work With Us" section composer.
- * Owns its own useInView ref; maps CULTURE_PERKS to CulturePerkCard atoms.
- */
+
 export default function CultureSection() {
   const [ref, inView] = useInView(0.1);
 

@@ -8,11 +8,7 @@ import { JOBS } from "../../constants/careers";
 import { JOB_LISTINGS_COPY } from "../../constants/careers/careersPageData";
 import { cn } from "../../utils/cn";
 
-/**
- * Job listings section composer.
- * Owns filter + search state (UI state, not business logic).
- * Delegates rendering to JobCard, JobSearchBar, JobFilterPills atoms.
- */
+
 export default function JobListings() {
   const [activeFilter, setActiveFilter] = useState("All");
   const [searchQuery,  setSearchQuery]  = useState("");

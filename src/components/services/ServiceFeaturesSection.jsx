@@ -4,12 +4,7 @@ import ServiceFeatureItem from "./ServiceFeatureItem";
 import { SERVICE_DETAIL_COPY } from "../../constants/services/servicesPageData";
 import { cn } from "../../utils/cn";
 
-/**
- * "Key Features" section on the service detail page.
- * Owns its own useInView ref; maps service.features to ServiceFeatureItem atoms.
- *
- * @param {object} service
- */
+
 export default function ServiceFeaturesSection({ service }) {
   const [ref, inView] = useInView(0.1);
 

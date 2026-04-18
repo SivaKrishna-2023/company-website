@@ -3,13 +3,6 @@ import { useInView } from "../../hooks/useInView";
 import { CAREER_DETAIL_COPY } from "../../constants/careers/careersPageData";
 import { cn } from "../../utils/cn";
 
-/**
- * Single responsibility: renders the responsibilities, requirements,
- * and company info columns of the Career Detail page.
- *
- * @param {object}   job
- * @param {function} onApply - Mobile CTA handler
- */
 export default function CareerDetailBody({ job, onApply }) {
   const [ref, inView] = useInView(0.08);
 

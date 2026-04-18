@@ -8,15 +8,7 @@ import SimilarJobsSection from "../../components/careers/SimilarJobsSection";
 import ApplyModal        from "../../components/careers/ApplyModal";
 import CTABannerSection  from "../../components/shared/CTABannerSection";
 
-/**
- * Career detail page orchestrator.
- *
- * Responsibilities (ONLY):
- *  - Resolve :id param → job data (guard redirect on miss)
- *  - Own modal open/close UI state (page-level state, not business logic)
- *  - Compose page sections in the correct order
- *  - Pass resolved data as props — no rendering logic
- */
+
 export default function CareerDetailPage() {
   const { id }     = useParams();
   const job        = JOBS.find((j) => j.id === id);

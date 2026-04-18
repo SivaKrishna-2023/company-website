@@ -5,13 +5,7 @@ import { cn } from "../utils/cn";
 
 const INITIAL = { name: "", email: "", mobile: "", message: "" };
 
-/**
- * Standalone contact form used on the /contact page.
- * Matches screenshot: Name, Email, Mobile, Message, Submit button.
- *
- * @param {"light"|"dark"} variant - visual style (light page or dark footer)
- * @param {string}  className
- */
+
 export default function ContactForm({ variant = "light", className = "" }) {
   const [form, setForm] = useState(INITIAL);
   const [errors, setErrors] = useState({});

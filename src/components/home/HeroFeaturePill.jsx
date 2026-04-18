@@ -1,11 +1,6 @@
 // src/components/home/HeroFeaturePill.jsx
 
-/**
- * Single responsibility: renders one glass feature pill in the hero strip.
- * @param {string} title
- * @param {string} desc
- * @param {number} delayMs - CSS animation delay in ms
- */
+
 export default function HeroFeaturePill({ title, desc, delayMs = 0 }) {
   return (
     <div

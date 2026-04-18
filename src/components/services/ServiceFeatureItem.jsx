@@ -1,14 +1,7 @@
 // src/components/services/ServiceFeatureItem.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Single responsibility: one feature item in the service detail features grid.
- *
- * @param {string}  text
- * @param {string}  accentColor  - Service brand colour for checkmark + border
- * @param {boolean} inView
- * @param {number}  delayMs
- */
+
 export default function ServiceFeatureItem({ text, accentColor, inView, delayMs = 0 }) {
   return (
     <div

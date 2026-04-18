@@ -10,13 +10,7 @@ const variants = {
   "scale-in":   "animate-scale-in",
 };
 
-/**
- * Wraps children in a div that animates into view when scrolled to.
- * @param {"fade-up"|"fade-in"|"slide-left"|"slide-right"|"scale-in"} variant
- * @param {string} delay  - Tailwind delay utility e.g. "delay-200"
- * @param {string} className
- * @param {number} threshold
- */
+
 export default function AnimatedSection({
   children,
   variant = "fade-up",

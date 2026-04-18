@@ -2,18 +2,7 @@
 import { Link } from "react-router-dom";
 import { cn } from "../../utils/cn";
 
-/**
- * Reusable service card used across Home, Services, and ServiceDetail pages.
- *
- * IMAGE FIX (production standard):
- *  - grid layout  → padding-bottom aspect-ratio box (58%) + absolute img
- *  - list layout  → fixed h-60 / md:min-h-[320px] + absolute img
- * Both guarantee pixel-consistent dimensions regardless of source image.
- *
- * @param {object}         service
- * @param {"grid"|"list"}  layout
- * @param {string}         className
- */
+
 export default function ServiceCard({ service, layout = "grid", className = "" }) {
 
   // ── LIST layout ──────────────────────────────────────────────────────────

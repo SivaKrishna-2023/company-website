@@ -1,10 +1,7 @@
 // src/components/home/HeroScrollIndicator.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Single responsibility: animated scroll-down indicator.
- * @param {boolean} visible - controls entrance animation
- */
+
 export default function HeroScrollIndicator({ visible }) {
   return (
     <div

@@ -1,9 +1,6 @@
 // src/components/home/HeroVideoBg.jsx
 
-/**
- * Single responsibility: renders the full-screen background video + overlay.
- * @param {string} src - Video URL
- */
+
 export default function HeroVideoBg({ src }) {
   return (
     <>

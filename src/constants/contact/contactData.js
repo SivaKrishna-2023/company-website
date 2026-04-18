@@ -1,9 +1,6 @@
 // src/constants/contact/contactData.js
 
-/**
- * All static data for the Contact page.
- * Centralised here so copy changes never touch component files.
- */
+
 
 export const CONTACT_DETAILS = {
   phone: "+91 - 8977876644",

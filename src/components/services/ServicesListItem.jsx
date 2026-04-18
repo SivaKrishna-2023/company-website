@@ -2,14 +2,7 @@
 import ServiceCard from "../shared/ServiceCard";
 import { cn } from "../../utils/cn";
 
-/**
- * Single responsibility: wraps one ServiceCard with entrance animation.
- * Keeps the animation concern out of ServiceCard itself.
- *
- * @param {object}  service
- * @param {boolean} inView
- * @param {number}  delayMs
- */
+
 export default function ServicesListItem({ service, inView, delayMs = 0 }) {
   return (
     <div

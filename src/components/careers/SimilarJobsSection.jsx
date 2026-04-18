@@ -4,12 +4,7 @@ import { useInView } from "../../hooks/useInView";
 import { CAREER_DETAIL_COPY } from "../../constants/careers/careersPageData";
 import { cn } from "../../utils/cn";
 
-/**
- * Single responsibility: "Similar Positions" section at the bottom of
- * the Career Detail page. Renders compact job link cards.
- *
- * @param {Array} jobs - Other job objects (max 3)
- */
+
 export default function SimilarJobsSection({ jobs }) {
   const [ref, inView] = useInView(0.1);
 

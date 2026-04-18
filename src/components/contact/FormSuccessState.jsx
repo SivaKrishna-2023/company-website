@@ -1,10 +1,5 @@
 // src/components/contact/FormSuccessState.jsx
 
-/**
- * Single-responsibility: renders the post-submission success UI.
- *
- * @param {function} onReset - Callback to allow sending another message
- */
 export default function FormSuccessState({ onReset }) {
   return (
     <div

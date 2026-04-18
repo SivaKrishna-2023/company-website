@@ -1,15 +1,7 @@
 // src/components/careers/CulturePerkCard.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Single responsibility: one culture perk card in the "Why Work With Us" grid.
- *
- * @param {string}  icon
- * @param {string}  title
- * @param {string}  desc
- * @param {boolean} inView
- * @param {number}  delayMs
- */
+
 export default function CulturePerkCard({ icon, title, desc, inView, delayMs = 0 }) {
   return (
     <div

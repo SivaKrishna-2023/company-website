@@ -1,10 +1,7 @@
 // src/components/careers/CareersStatsBar.jsx
 import { CAREERS_STATS } from "../../constants/careers/careersPageData";
 
-/**
- * Single responsibility: blue stats strip shown below the Careers hero.
- * All data comes from careersPageData constants.
- */
+
 export default function CareersStatsBar() {
   return (
     <div className="bg-[#1A7AFF]" role="region" aria-label="Careers statistics">

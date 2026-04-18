@@ -4,10 +4,6 @@ import HiringStepCard from "./HiringStepCard";
 import { HIRING_PROCESS_COPY, HIRING_STEPS } from "../../constants/careers/careersPageData";
 import { cn } from "../../utils/cn";
 
-/**
- * "Our Hiring Process" section composer.
- * Owns its own useInView ref; maps HIRING_STEPS data to HiringStepCard atoms.
- */
 export default function HiringProcessSection() {
   const [ref, inView] = useInView(0.1);
 

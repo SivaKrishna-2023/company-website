@@ -2,10 +2,7 @@
 import { Link } from "react-router-dom";
 import { cn } from "../../utils/cn";
 
-/**
- * Single responsibility: renders one job listing card.
- * @param {object} job
- */
+
 function MetaChip({ icon, label }) {
   return (
     <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-gray-50 text-gray-500 text-[11px] font-medium border border-gray-100">

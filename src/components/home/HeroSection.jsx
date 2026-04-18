@@ -11,10 +11,6 @@ import {
 } from "../../constants/home/homeData";
 import { cn } from "../../utils/cn";
 
-/**
- * Hero section composer.
- * Owns entrance animation state; delegates sub-elements to atoms.
- */
 export default function HeroSection() {
   const [visible, setVisible] = useState(false);
 

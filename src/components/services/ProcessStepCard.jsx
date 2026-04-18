@@ -1,16 +1,7 @@
 // src/components/services/ProcessStepCard.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Single responsibility: renders one step card in the "Our Process" section.
- *
- * @param {string}  num        - Step number string e.g. "01"
- * @param {string}  title
- * @param {string}  desc
- * @param {boolean} inView
- * @param {number}  delayMs
- * @param {boolean} showConnector - Show right-side connector line on desktop
- */
+
 export default function ProcessStepCard({ num, title, desc, inView, delayMs = 0, showConnector = false }) {
   return (
     <div

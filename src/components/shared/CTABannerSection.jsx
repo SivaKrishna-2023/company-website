@@ -4,15 +4,6 @@ import { useInView } from "../../hooks/useInView";
 import { CTA_BANNER_COPY } from "../../constants/home/homeData";
 import { cn } from "../../utils/cn";
 
-/**
- * Shared CTA banner used at the bottom of Home, Services, and Careers pages.
- * Props-driven so copy can be overridden per page if needed.
- *
- * @param {string} heading
- * @param {string} subtext
- * @param {string} ctaPrimary
- * @param {string} ctaSecondary
- */
 export default function CTABannerSection({
   heading     = CTA_BANNER_COPY.heading,
   subtext     = CTA_BANNER_COPY.subtext,

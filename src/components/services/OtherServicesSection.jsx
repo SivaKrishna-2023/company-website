@@ -4,12 +4,6 @@ import ServiceCard from "../shared/ServiceCard";
 import { SERVICE_DETAIL_COPY } from "../../constants/services/servicesPageData";
 import { cn } from "../../utils/cn";
 
-/**
- * "Other Services" section on the service detail page.
- * Owns its own useInView ref; renders remaining services as grid cards.
- *
- * @param {Array} services - Other service objects (excluding current)
- */
 export default function OtherServicesSection({ services }) {
   const [ref, inView] = useInView(0.1);
 

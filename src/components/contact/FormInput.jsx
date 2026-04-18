@@ -1,23 +1,6 @@
 // src/components/contact/FormInput.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Single-responsibility atom: renders ONE labeled text/email/tel input.
- *
- * Props driven — zero internal state, zero form logic.
- * Works with Formik: pass field.value + field.onChange + meta.error.
- *
- * @param {string}   id           - Links <label> to <input>
- * @param {string}   label        - Label text
- * @param {string}   type         - "text" | "email" | "tel"
- * @param {string}   placeholder
- * @param {string}   value        - Controlled value (from Formik)
- * @param {function} onChange     - Formik handleChange
- * @param {function} onBlur       - Formik handleBlur
- * @param {string}   error        - Error message (from Formik meta.error)
- * @param {boolean}  touched      - Whether field was blurred (Formik meta.touched)
- * @param {boolean}  required
- */
 export default function FormInput({
   id,
   label,

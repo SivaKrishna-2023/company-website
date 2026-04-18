@@ -1,12 +1,7 @@
 // src/components/careers/JobSearchBar.jsx
 import { JOB_LISTINGS_COPY } from "../../constants/careers/careersPageData";
 
-/**
- * Single responsibility: the search input in the job listings toolbar.
- *
- * @param {string}   value
- * @param {function} onChange
- */
+
 export default function JobSearchBar({ value, onChange }) {
   return (
     <div className="relative flex-1 max-w-sm">

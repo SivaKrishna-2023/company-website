@@ -2,11 +2,6 @@
 import { Link } from "react-router-dom";
 import { cn } from "../../utils/cn";
 
-/**
- * Reusable Job Card used in the Careers listing and detail pages.
- * @param {object}  job      - Job data object from constants/careers.js
- * @param {"grid"|"featured"} layout
- */
 export default function JobCard({ job, layout = "grid", className = "" }) {
   return (
     <div

@@ -3,10 +3,6 @@ import { useInView } from "../../hooks/useInView";
 import ServicesListItem from "./ServicesListItem";
 import { SERVICES } from "../../constants/services";
 
-/**
- * Single responsibility: renders the full list of services on /services page.
- * Owns its own useInView ref; maps data to ServicesListItem atoms.
- */
 export default function ServicesList() {
   const [ref, inView] = useInView(0.08);
 

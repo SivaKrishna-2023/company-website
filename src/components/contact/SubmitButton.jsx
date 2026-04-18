@@ -1,19 +1,6 @@
 // src/components/contact/SubmitButton.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Single-responsibility: renders the form submit button.
- *
- * Handles three visual states:
- *  - idle     → "submit" label
- *  - loading  → spinner + "Sending…"
- *  - disabled → muted appearance + no pointer events
- *
- * @param {boolean}  isSubmitting  - Show loading spinner
- * @param {boolean}  disabled      - Disable interaction
- * @param {string}   label         - Idle label (default "submit")
- * @param {string}   className
- */
 export default function SubmitButton({
   isSubmitting = false,
   disabled = false,

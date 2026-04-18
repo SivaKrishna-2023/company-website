@@ -2,11 +2,6 @@
 import AboutStatItem from "./AboutStatItem";
 import { ABOUT_STATS } from "../../constants/home/homeData";
 
-/**
- * Single responsibility: renders the blue stats bar overlaid
- * on the bottom of the About section image.
- * @param {boolean} triggered - passed to each AboutStatItem for count-up
- */
 export default function AboutStatsOverlay({ triggered }) {
   return (
     <div className="absolute bottom-0 left-0 right-0 bg-[#1A7AFF] rounded-b-2xl px-6 py-5 flex items-center justify-around gap-4">

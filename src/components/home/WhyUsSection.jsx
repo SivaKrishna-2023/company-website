@@ -5,10 +5,7 @@ import { WHY_US_COPY } from "../../constants/home/homeData";
 import { WHY_US } from "../../constants/services";
 import { cn } from "../../utils/cn";
 
-/**
- * "Why Choose Us" section composer.
- * Owns its own useInView ref; maps data to WhyUsFeatureCard atoms.
- */
+
 export default function WhyUsSection() {
   const [ref, inView] = useInView(0.1);
 

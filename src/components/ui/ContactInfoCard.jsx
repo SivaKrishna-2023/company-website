@@ -1,16 +1,6 @@
 // src/components/ui/ContactInfoCard.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Displays a single contact detail (phone, email, address, hours).
- *
- * @param {string}  icon      - Emoji or SVG node
- * @param {string}  label     - Section label e.g. "Phone"
- * @param {string|ReactNode} value  - Main displayed value
- * @param {string}  href      - Optional anchor href (tel: / mailto:)
- * @param {string}  className
- * @param {"light"|"dark"} variant
- */
 export default function ContactInfoCard({
   icon,
   label,

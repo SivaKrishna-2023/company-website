@@ -1,14 +1,7 @@
 // src/components/home/WhyUsFeatureCard.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Single responsibility: one feature card in the "Why Us" grid.
- * @param {string}  icon
- * @param {string}  title
- * @param {string}  desc
- * @param {boolean} inView
- * @param {number}  delayMs
- */
+
 export default function WhyUsFeatureCard({ icon, title, desc, inView, delayMs = 0 }) {
   return (
     <div

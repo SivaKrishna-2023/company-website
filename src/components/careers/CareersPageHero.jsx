@@ -3,10 +3,7 @@ import DarkPageHero from "../shared/DarkPageHero";
 import { JOBS } from "../../constants/careers";
 import { CAREERS_HERO_COPY } from "../../constants/careers/careersPageData";
 
-/**
- * Single responsibility: hero banner for the /careers page.
- * Passes careers-specific copy and floating badges to DarkPageHero.
- */
+
 export default function CareersPageHero() {
   const scrollTo = (id) => (e) => {
     e.preventDefault();

@@ -5,10 +5,7 @@ import AboutStatsOverlay from "./AboutStatsOverlay";
 import { ABOUT_COPY, ABOUT_IMAGE } from "../../constants/home/homeData";
 import { cn } from "../../utils/cn";
 
-/**
- * About section composer.
- * Owns its own useInView ref; delegates stats overlay and image to children.
- */
+
 export default function AboutSection() {
   const [ref, inView] = useInView(0.15);
 

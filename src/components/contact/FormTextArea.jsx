@@ -1,23 +1,7 @@
 // src/components/contact/FormTextArea.jsx
 import { cn } from "../../utils/cn";
 
-/**
- * Single-responsibility atom: renders ONE labeled textarea.
- *
- * Zero internal state — fully controlled by Formik via props.
- *
- * @param {string}   id
- * @param {string}   label
- * @param {string}   placeholder
- * @param {number}   rows          - Default 5
- * @param {string}   value
- * @param {function} onChange
- * @param {function} onBlur
- * @param {string}   error
- * @param {boolean}  touched
- * @param {boolean}  required
- * @param {number}   maxLength     - Optional char cap shown as counter
- */
+
 export default function FormTextArea({
   id,
   label,
