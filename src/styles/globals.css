@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Syne:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'DM Sans', sans-serif;
+    @apply text-gray-800 antialiased bg-white;
+  }
+  h1, h2, h3, h4, h5, h6 { font-family: 'Syne', sans-serif; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-[#1A7AFF] text-white font-semibold text-sm
+           hover:bg-blue-600 hover:scale-105 transition-all duration-300 shadow-lg shadow-blue-200;
+  }
+  .btn-outline-white {
+    @apply inline-flex items-center gap-2 px-8 py-3.5 rounded-full border-2 border-white text-white font-semibold text-sm
+           hover:bg-white hover:text-gray-900 transition-all duration-300;
+  }
+  .btn-outline-dark {
+    @apply inline-flex items-center gap-2 px-8 py-3.5 rounded-full border-2 border-gray-900 text-gray-900 font-semibold text-sm
+           hover:bg-gray-900 hover:text-white transition-all duration-300;
+  }
+  .section-label {
+    @apply inline-block text-[#1A7AFF] font-semibold text-xs uppercase tracking-widest mb-3;
+  }
+  .section-title {
+    @apply font-display font-bold text-4xl md:text-5xl text-gray-900 leading-tight;
+  }
+  .section-sub {
+    @apply text-gray-500 text-base leading-relaxed;
+  }
+}
+
+@layer utilities {
+  .hero-overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(5, 12, 28, 0.72) 0%,
+      rgba(5, 12, 28, 0.52) 55%,
+      rgba(5, 12, 28, 0.80) 100%
+    );
+  }
+  .glass {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.18);
+  }
+  .nav-underline { position: relative; }
+  .nav-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -3px; left: 0;
+    width: 0; height: 2px;
+    background: #1A7AFF;
+    transition: width 0.3s ease;
+  }
+  .nav-underline:hover::after, .nav-underline.active::after { width: 100%; }
+
+  .delay-0   { animation-delay: 0ms; }
+  .delay-100 { animation-delay: 100ms; }
+  .delay-200 { animation-delay: 200ms; }
+  .delay-300 { animation-delay: 300ms; }
+  .delay-400 { animation-delay: 400ms; }
+  .delay-500 { animation-delay: 500ms; }
+  .delay-600 { animation-delay: 600ms; }
+  .delay-700 { animation-delay: 700ms; }
+}
