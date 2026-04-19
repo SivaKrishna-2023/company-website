@@ -21,7 +21,6 @@ export default function ContactHeader({
         {subtext}
       </p>
 
-      {/* Contact details list */}
       <div className="flex flex-col gap-7">
         {/* Phone */}
         <div>

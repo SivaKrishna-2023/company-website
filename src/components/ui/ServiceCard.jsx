@@ -12,13 +12,7 @@ export default function ServiceCard({ service, layout = "grid", className = "" }
         "hover:shadow-xl transition-all duration-400",
         className
       )}>
-        {/*
-          Image container:
-          - Mobile  → full-width, fixed 240px height
-          - Desktop → fixed 2/5 width, fixed 320px height
-          Both sides are locked with object-cover so the image never
-          stretches, squishes, or causes layout shift.
-        */}
+  
         <div className="relative w-full md:w-2/5 h-60 md:h-auto md:min-h-[320px] flex-shrink-0 overflow-hidden">
           <img
             src={service.image}
@@ -77,11 +71,6 @@ export default function ServiceCard({ service, layout = "grid", className = "" }
       "hover:shadow-xl hover:-translate-y-1 transition-all duration-400",
       className
     )}>
-      {/*
-        Image container:
-        - Aspect-ratio 16/9 box: always consistent across all cards.
-        - `absolute inset-0` image fills the padded box reliably.
-      */}
       <div className="relative w-full overflow-hidden" style={{ paddingBottom: "58%" }}>
         <img
           src={service.image}

@@ -7,15 +7,7 @@ import ContactAbout  from "../../components/contact/ContactAbout";
 import { CONTACT_DETAILS, ABOUT_STATS, CONTACT_PAGE_COPY } from "../../constants/contact/contactData";
 import { cn } from "../../utils/cn";
 
-/**
- * ContactPage — thin orchestrator.
- *
- * Responsibilities (ONLY):
- *  - Compose section components in the correct order
- *  - Pass data constants as props (no inline data)
- *  - Own useInView refs for each section
- *  - Zero JSX logic, zero UI decisions
- */
+
 export default function ContactPage() {
   const [heroRef,     heroInView]     = useInView(0.08);
   const [locationRef, locationInView] = useInView(0.06);

@@ -5,7 +5,6 @@ import AboutStatsOverlay from "./AboutStatsOverlay";
 import { ABOUT_COPY, ABOUT_IMAGE } from "../../constants/home/homeData";
 import { cn } from "../../utils/cn";
 
-
 export default function AboutSection() {
   const [ref, inView] = useInView(0.15);
 

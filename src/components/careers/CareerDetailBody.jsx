@@ -5,7 +5,6 @@ import { cn } from "../../utils/cn";
 
 export default function CareerDetailBody({ job, onApply }) {
   const [ref, inView] = useInView(0.08);
-
   return (
     <section ref={ref} className="py-16 bg-white">
       <div className="max-w-5xl mx-auto px-6">

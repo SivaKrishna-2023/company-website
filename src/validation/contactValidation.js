@@ -1,16 +1,6 @@
 // src/validation/contactValidation.js
 import { z } from "zod";
 
-/**
- * Zod schema for the Contact page form.
- * Fully decoupled from UI — import anywhere (form, tests, API layer).
- *
- * Fields:
- *  - name    : non-empty string, 2–80 chars
- *  - email   : valid email format
- *  - mobile  : Indian/international phone, 7–15 digits
- *  - message : non-empty, 10–1000 chars
- */
 export const contactSchema = z.object({
   name: z
     .string()
@@ -39,15 +29,7 @@ export const contactSchema = z.object({
     .max(1000, "Message must be 1000 characters or fewer"),
 });
 
-/**
- * TypeScript-style shape inferred from schema (for JSDoc / IDE use).
- * @typedef {z.infer<typeof contactSchema>} ContactFormValues
- */
 
-/**
- * Initial form values — matches every key in contactSchema.
- * @type {ContactFormValues}
- */
 export const contactInitialValues = {
   name: "",
   email: "",

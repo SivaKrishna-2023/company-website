@@ -1,7 +1,5 @@
 // src/constants/contact/contactData.js
 
-
-
 export const CONTACT_DETAILS = {
   phone: "+91 - 8977876644",
   phoneTel: "+918977876644",
