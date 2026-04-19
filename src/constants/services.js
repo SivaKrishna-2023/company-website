@@ -16,7 +16,8 @@ export const SERVICES = [
       "CMS integration (Strapi, Sanity, WordPress)",
       "Performance & SEO optimization",
     ],
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80",
     icon: "💻",
     color: "#1A7AFF",
     bgColor: "#EEF6FF",
@@ -37,7 +38,8 @@ export const SERVICES = [
       "Social media management",
       "Analytics & conversion tracking",
     ],
-    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&q=80",
     icon: "📣",
     color: "#F59E0B",
     bgColor: "#FFFBEB",
@@ -58,7 +60,8 @@ export const SERVICES = [
       "Soft-skills & communication",
       "Industry-specific grooming",
     ],
-    image: "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1573497161161-c3e73707e25c?w=800&q=80",
     icon: "🎯",
     color: "#10B981",
     bgColor: "#ECFDF5",
@@ -67,30 +70,70 @@ export const SERVICES = [
 
 export const STATS = [
   { value: 150, suffix: "+", label: "Happy Clients" },
-  { value: 15,  suffix: "",  label: "Trusted Partners" },
-  { value: 5,   suffix: "+", label: "Years Experience" },
-  { value: 98,  suffix: "%", label: "Client Satisfaction" },
+  { value: 15, suffix: "", label: "Trusted Partners" },
+  { value: 5, suffix: "+", label: "Years Experience" },
+  { value: 98, suffix: "%", label: "Client Satisfaction" },
 ];
 
 export const NAV_LINKS = [
-  { label: "Home",     path: "/" },
+  { label: "Home", path: "/" },
   { label: "Services", path: "/services" },
-  { label: "Careers",  path: "/careers" },
-  { label: "Contact",  path: "/contact" },
+  { label: "Careers", path: "/careers" },
+  { label: "Contact", path: "/contact" },
 ];
 
 export const SOCIAL_LINKS = [
-  { name: "Facebook",  href: "#", icon: "facebook"  },
-  { name: "Instagram", href: "#", icon: "instagram" },
-  { name: "LinkedIn",  href: "#", icon: "linkedin"  },
-  { name: "X",         href: "#", icon: "x"         },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/innovaorbitglobalsolutions/",
+    icon: "facebook",
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/innovaorbitglobalsolutions/",
+    icon: "instagram",
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/company/innovaorbitglobalsolutions/posts/?feedView=all",
+    icon: "linkedin",
+  },
+  {
+    name: "X",
+    href: "https://x.com/innova_llp",
+    icon: "x",
+  },
 ];
 
 export const WHY_US = [
-  { icon: "🚀", title: "Expert Team",       desc: "Seasoned professionals with deep domain expertise across web, marketing, and career coaching." },
-  { icon: "🎯", title: "Result-Focused",    desc: "Every solution we craft is aligned with delivering measurable outcomes for your business." },
-  { icon: "⚡", title: "Fast Delivery",     desc: "Agile processes mean you get high-quality work delivered on time, every time." },
-  { icon: "🤝", title: "Dedicated Support", desc: "Round-the-clock support to ensure your operations never miss a beat." },
-  { icon: "🛡️", title: "Secure & Reliable", desc: "Enterprise-grade security and reliability built into everything we build." },
-  { icon: "💡", title: "Innovation-Led",    desc: "Constantly evolving with latest trends to keep you ahead of the competition." },
+  {
+    icon: "🚀",
+    title: "Expert Team",
+    desc: "Seasoned professionals with deep domain expertise across web, marketing, and career coaching.",
+  },
+  {
+    icon: "🎯",
+    title: "Result-Focused",
+    desc: "Every solution we craft is aligned with delivering measurable outcomes for your business.",
+  },
+  {
+    icon: "⚡",
+    title: "Fast Delivery",
+    desc: "Agile processes mean you get high-quality work delivered on time, every time.",
+  },
+  {
+    icon: "🤝",
+    title: "Dedicated Support",
+    desc: "Round-the-clock support to ensure your operations never miss a beat.",
+  },
+  {
+    icon: "🛡️",
+    title: "Secure & Reliable",
+    desc: "Enterprise-grade security and reliability built into everything we build.",
+  },
+  {
+    icon: "💡",
+    title: "Innovation-Led",
+    desc: "Constantly evolving with latest trends to keep you ahead of the competition.",
+  },
 ];

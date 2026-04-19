@@ -11,7 +11,7 @@ export const CONTACT_DETAILS = {
   },
   hours: "Mon–Sat, 9 am – 9 pm",
   mapEmbedSrc:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.2938613709856!2d78.44768031487671!3d17.43730388804153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90c0f5526d31%3A0xe2e79f39d1a8a41a!2sVishnu%20Plaza%2C%20Swathi%20Ave%2C%20Ameerpet%2C%20Hyderabad%2C%20Telangana%20500016!5e0!3m2!1sen!2sin!4v1713430000000!5m2!1sen!2sin",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.443021460651!2d78.44629477462811!3d17.438497401331794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb90c63a0dc791%3A0x77947d780bc87acc!2sVishnu%20Plaza!5e0!3m2!1sen!2sin!4v1776624262093!5m2!1sen!2sin",
 };
 
 export const ABOUT_STATS = [
