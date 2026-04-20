@@ -10,9 +10,7 @@ export default function Navbar() {
   const scrolled = useScrolled(30);
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
-
   const closeMenu = () => setMenuOpen(false);
-
   return (
     <header
       className={cn(
