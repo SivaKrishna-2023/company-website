@@ -1,12 +1,6 @@
 // src/hooks/useCountUp.js
 import { useEffect, useRef, useState } from "react";
 
-/**
- * Animates a number from 0 to `target` over `duration` ms.
- * @param {number} target   - End value
- * @param {boolean} trigger - Start animation when true
- * @param {number} duration - Animation duration in ms
- */
 export function useCountUp(target, trigger, duration = 1800) {
   const [count, setCount] = useState(0);
   const rafRef = useRef(null);

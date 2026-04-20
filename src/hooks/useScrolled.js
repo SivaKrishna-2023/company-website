@@ -1,9 +1,6 @@
 // src/hooks/useScrolled.js
 import { useEffect, useState } from "react";
 
-/**
- * Returns true when window has scrolled past `threshold` pixels.
- */
 export function useScrolled(threshold = 30) {
   const [scrolled, setScrolled] = useState(false);
 

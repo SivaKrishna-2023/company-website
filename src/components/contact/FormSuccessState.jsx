@@ -1,4 +1,3 @@
-// src/components/contact/FormSuccessState.jsx
 
 export default function FormSuccessState({ onReset }) {
   return (

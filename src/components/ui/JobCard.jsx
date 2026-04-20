@@ -11,7 +11,6 @@ export default function JobCard({ job, layout = "grid", className = "" }) {
         className
       )}
     >
-      {/* Urgent badge */}
       {job.urgent && (
         <span className="absolute top-4 right-4 z-10 inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-red-50 text-red-500 text-[10px] font-bold uppercase tracking-wider border border-red-100">
           <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
@@ -19,16 +18,13 @@ export default function JobCard({ job, layout = "grid", className = "" }) {
         </span>
       )}
 
-      {/* Top color accent bar */}
       <div
         className="h-1 w-full transition-all duration-300 group-hover:h-1.5"
         style={{ backgroundColor: job.color }}
       />
 
       <div className="p-6">
-        {/* Header row */}
         <div className="flex items-start gap-4 mb-4">
-          {/* Icon circle */}
           <div
             className="w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0"
             style={{ backgroundColor: job.bgColor }}
@@ -43,7 +39,6 @@ export default function JobCard({ job, layout = "grid", className = "" }) {
           </div>
         </div>
 
-        {/* Meta chips */}
         <div className="flex flex-wrap gap-2 mb-4">
           <MetaChip icon="📍" label={job.location} />
           <MetaChip icon="⏱" label={job.type} />

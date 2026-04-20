@@ -4,10 +4,6 @@ import { useLocation } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-/**
- * MainLayout wraps every page.
- * Handles scroll-to-top on route change.
- */
 export default function MainLayout({ children }) {
   const { pathname } = useLocation();
 

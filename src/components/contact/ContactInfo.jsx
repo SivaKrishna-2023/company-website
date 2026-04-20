@@ -17,14 +17,12 @@ export default function ContactInfo({
       aria-labelledby="location-heading"
       className={cn("bg-[#0F172A]", className)}
     >
-      {/* ── Top: text content ─────────────────────────────────────────── */}
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-
           <div
             className={cn(
               animBase,
-              inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8",
             )}
           >
             <h2
@@ -43,35 +41,39 @@ export default function ContactInfo({
               "flex flex-col gap-7",
               animBase,
               "delay-150",
-              inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+              inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8",
             )}
           >
             {/* Address */}
             <div>
-              <p className="font-display font-bold text-white text-base mb-2">Address</p>
+              <p className="font-display font-bold text-white text-base mb-2">
+                Address
+              </p>
               <address className="not-italic text-gray-300 text-sm leading-relaxed">
-                {address.line1}<br />
-                {address.line2}<br />
+                {address.line1}
+                <br />
+                {address.line2}
+                <br />
                 {address.line3}
               </address>
             </div>
 
-            {/* Hours */}
             <div>
-              <p className="font-display font-bold text-white text-base mb-2">Hours</p>
+              <p className="font-display font-bold text-white text-base mb-2">
+                Hours
+              </p>
               <p className="text-gray-300 text-sm">{hours}</p>
             </div>
           </div>
         </div>
       </div>
 
-      {/* ── Map embed ─────────────────────────────────────────────────── */}
       <div
         className={cn(
           "mx-6 max-w-[calc(100%-3rem)] mx-auto overflow-hidden rounded-t-2xl",
           animBase,
           "delay-300",
-          inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
         )}
         style={{ height: 400 }}
       >

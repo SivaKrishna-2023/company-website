@@ -18,12 +18,11 @@ export default function ContactForm({ className = "" }) {
 
   const { values, errors, touched, handleChange, handleBlur, handleSubmit } = formik;
 
-  // ── Success state ──────────────────────────────────────────────────────
   if (isSubmitted) {
     return <FormSuccessState onReset={resetSuccess} />;
   }
 
-  // ── Form UI ────────────────────────────────────────────────────────────
+  
   return (
     <form
       onSubmit={handleSubmit}
@@ -98,7 +97,6 @@ export default function ContactForm({ className = "" }) {
         </p>
       )}
 
-      {/* Submit */}
       <div>
         <SubmitButton isSubmitting={isSubmitting} label="submit" />
       </div>

@@ -15,7 +15,6 @@ export default function ContactPage() {
 
   return (
     <>
-      {/* ── Section 1: Get in Touch + Form (Screenshot 1) ─────────────── */}
       <section
         ref={heroRef}
         aria-labelledby="contact-main-heading"
@@ -23,8 +22,6 @@ export default function ContactPage() {
       >
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-
-            {/* Left: heading + contact details */}
             <ContactHeader
               heading={CONTACT_PAGE_COPY.heroHeading}
               subtext={CONTACT_PAGE_COPY.heroSubtext}
@@ -50,7 +47,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* ── Section 2: Our Location + Map (Screenshots 2 & 3) ──────────── */}
       <div ref={locationRef}>
         <ContactInfo
           heading={CONTACT_PAGE_COPY.locationHeading}
@@ -62,7 +58,7 @@ export default function ContactPage() {
         />
       </div>
 
-      {/* ── Section 3: About mini + stats (Screenshot 4) ───────────────── */}
+
       <div ref={aboutRef}>
         <ContactAbout
           heading={CONTACT_PAGE_COPY.aboutHeading}

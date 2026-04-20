@@ -12,10 +12,10 @@ export const CAREERS_HERO_COPY = {
 };
 
 export const CAREERS_STATS = [
-  { id: "team",        value: "50+", label: "Team Members"    },
-  { id: "roles",       value: "6",   label: "Open Roles"      },
-  { id: "glassdoor",   value: "4.9", label: "Glassdoor Rating" },
-  { id: "retention",   value: "98%", label: "Retention Rate"  },
+  { id: "team",        value: "50+", label: "Team Members" },
+  { id: "roles",       value: "6",   label: "Open Roles"  },
+  { id: "glassdoor",   value: "4.9", label: "Glassdoor Rating"},
+  { id: "retention",   value: "98%", label: "Retention Rate"},
 ];
 
 export const CULTURE_COPY = {

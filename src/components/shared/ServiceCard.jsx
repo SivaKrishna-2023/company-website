@@ -5,7 +5,6 @@ import { cn } from "../../utils/cn";
 
 export default function ServiceCard({ service, layout = "grid", className = "" }) {
 
-  // ── LIST layout ──────────────────────────────────────────────────────────
   if (layout === "list") {
     return (
       <article className={cn(
@@ -56,14 +55,12 @@ export default function ServiceCard({ service, layout = "grid", className = "" }
     );
   }
 
-  // ── GRID layout ──────────────────────────────────────────────────────────
   return (
     <article className={cn(
       "group bg-white rounded-2xl overflow-hidden shadow-sm",
       "hover:shadow-xl hover:-translate-y-1 transition-all duration-400",
       className
     )}>
-      {/* Aspect-ratio image container — always consistent */}
       <div className="relative w-full overflow-hidden" style={{ paddingBottom: "58%" }}>
         <img
           src={service.image}

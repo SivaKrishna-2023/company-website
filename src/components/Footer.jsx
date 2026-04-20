@@ -71,7 +71,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Column 2 – Quick Links */}
+          
           <div>
             <p className="font-display font-bold text-base text-white mb-6 uppercase tracking-wide">Quick Links</p>
             <ul className="space-y-3">

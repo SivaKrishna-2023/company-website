@@ -6,14 +6,6 @@ import ServiceFeaturesSection from "../../components/services/ServiceFeaturesSec
 import OtherServicesSection  from "../../components/services/OtherServicesSection";
 import CTABannerSection      from "../../components/shared/CTABannerSection";
 
-/**
- * Service detail page orchestrator.
- *
- * Responsibilities (ONLY):
- *  - Resolve :slug param → service data (guard redirect on miss)
- *  - Compose page sections in the correct order
- *  - Pass resolved data as props — no rendering logic
- */
 export default function ServiceDetailPage() {
   const { slug } = useParams();
   const service  = SERVICES.find((s) => s.slug === slug);

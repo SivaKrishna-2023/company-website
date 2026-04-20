@@ -1,7 +1,6 @@
 // src/components/ui/InputField.jsx
 import { cn } from "../../utils/cn";
 
-
 export default function InputField({
   as = "input",
   label,

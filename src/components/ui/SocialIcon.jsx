@@ -1,4 +1,3 @@
-// src/components/ui/SocialIcons.jsx
 import { cn } from "../../utils/cn";
 
 const icons = {

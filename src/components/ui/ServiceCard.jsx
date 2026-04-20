@@ -64,7 +64,6 @@ export default function ServiceCard({ service, layout = "grid", className = "" }
     );
   }
 
-  // ── GRID layout (used on Home page services preview) ──────────────────────
   return (
     <div className={cn(
       "group bg-white rounded-2xl overflow-hidden shadow-sm",

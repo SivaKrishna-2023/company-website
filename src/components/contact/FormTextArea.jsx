@@ -1,6 +1,4 @@
-// src/components/contact/FormTextArea.jsx
 import { cn } from "../../utils/cn";
-
 
 export default function FormTextArea({
   id,

@@ -7,9 +7,7 @@ import JobCard from "../components/ui/JobCard";
 import CTABanner from "../components/CTABanner";
 import { cn } from "../utils/cn";
 
-// ─────────────────────────────────────────────
-// Page Hero
-// ─────────────────────────────────────────────
+
 function CareersHero() {
   return (
     <section className="relative py-28 bg-[#0F172A] overflow-hidden">
@@ -68,9 +66,6 @@ function CareersHero() {
   );
 }
 
-// ─────────────────────────────────────────────
-// Stats bar
-// ─────────────────────────────────────────────
 function StatsBar() {
   const stats = [
     { value: "50+", label: "Team Members" },
@@ -93,9 +88,7 @@ function StatsBar() {
   );
 }
 
-// ─────────────────────────────────────────────
-// Culture Perks
-// ─────────────────────────────────────────────
+
 function CultureSection() {
   const [ref, inView] = useInView(0.1);
 
@@ -136,9 +129,6 @@ function CultureSection() {
   );
 }
 
-// ─────────────────────────────────────────────
-// Job Listings with filter
-// ─────────────────────────────────────────────
 function JobListings() {
   const [activeFilter, setActiveFilter] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
@@ -251,9 +241,6 @@ function JobListings() {
   );
 }
 
-// ─────────────────────────────────────────────
-// Application process steps
-// ─────────────────────────────────────────────
 function HiringProcess() {
   const [ref, inView] = useInView(0.1);
   const steps = [
@@ -304,9 +291,7 @@ function HiringProcess() {
   );
 }
 
-// ─────────────────────────────────────────────
-// Main Page export
-// ─────────────────────────────────────────────
+
 export default function Careers() {
   return (
     <>
